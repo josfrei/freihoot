@@ -9,22 +9,22 @@ const puerto = 4000
 app.use(express.json())
 
 const db = mysql.createConnection({
-    host: "dam2.colexio-karbo.com",
-    port: 3333,
-    user: "dam2",
-    password: "Ka3b0134679",
-    database: "kahoot_jfreiria",
+    host: "***********",
+    port: 1234,
+    user: "***********",
+    password: "***********",
+    database: "***********",
 });
 
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAVonmXoUkI308E8-UnSkE_bs_ikEcycEQ",
-    authDomain: "pruebaprimerdia.firebaseapp.com",
-    projectId: "pruebaprimerdia",
-    storageBucket: "pruebaprimerdia.firebasestorage.app",
-    messagingSenderId: "809563283093",
-    appId: "1:809563283093:web:939f5a12d68af88625859c"
+    apiKey: "***********",
+    authDomain: "***********",
+    projectId: "***********",
+    storageBucket: "***********",
+    messagingSenderId: "***********",
+    appId: "***********",
 };
 
 // Initialize Firebase
